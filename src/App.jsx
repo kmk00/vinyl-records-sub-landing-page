@@ -1,4 +1,4 @@
-import Cards from "./components/Cards";
+import Main from "./components/Main";
 import Navigation from "./components/Navigation";
 import Section from "./components/Section";
 
@@ -7,7 +7,7 @@ function App() {
     <>
       <Navigation />
       <Section />
-      <Cards />
+      <Main />
     </>
   );
 }
