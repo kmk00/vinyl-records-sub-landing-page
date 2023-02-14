@@ -14,7 +14,7 @@ function Section() {
         </div>
         <img
           className="w-[400px] h-[360px] sm:h-[400px] md:w-[500px] md:h-[500px] "
-          src="/public/images/album1.png"
+          src="/images/album1.png"
           alt="First album cover"
         />
       </div>
