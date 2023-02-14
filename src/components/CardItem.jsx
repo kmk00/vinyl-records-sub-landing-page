@@ -11,9 +11,10 @@ function CardItem({ card }) {
         <div className="mx-auto relative max-w-[400px] h-96  pt-12 font-light">
           <img
             src="/images/album1.png"
-            className="absolute z-10 opacity-60 top-0"
+            className="absolute z-10 opacity-40 top-0"
+            alt="Card item"
           />
-          <div className=" bottom-5 absolute z-20 translate-x-[25%]">
+          <div className=" bottom-5 absolute z-20 translate-x-[5%]">
             <p>Edições Anteriores:</p>
             <p>{card.title}</p>
             <p>{card.vinil}</p>

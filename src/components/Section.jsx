@@ -15,6 +15,7 @@ function Section() {
         <img
           className="w-[400px] h-[360px] sm:h-[400px] md:w-[500px] md:h-[500px] "
           src="/public/images/album1.png"
+          alt="First album cover"
         />
       </div>
       <div className="flex flex-col md:flex-row-reverse items-center justify-center text-white bg-[#a6876d] p-4 ">
@@ -29,6 +30,7 @@ function Section() {
         <img
           className="w-[400px] h-[360px] sm:h-[400px] md:w-[500px] md:h-[500px] "
           src="/images/album2.png"
+          alt="Second album cover"
         />
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center  bg-gradient-to-t from-[#A6876D]/30 to-[#A6876D]/40  p-4 ">
@@ -44,6 +46,7 @@ function Section() {
         <img
           className="w-[400px] h-[360px] sm:h-[400px] md:w-[500px] md:h-[500px]"
           src="/images/album3.png"
+          alt="Third album cover"
         />
       </div>
       <div className="flex flex-col items-center justify-center md:flex-row-reverse text-white bg-[#1d1b16] p-4 ">
@@ -59,6 +62,7 @@ function Section() {
           <img
             className="w-[300px] h-[260px] sm:h-[300px] md:w-[400px] md:h-[400px] shrink-0"
             src="/images/album4.png"
+            alt="Fourth album cover"
           />
           <h2 className="uppercase text">conheça os planos:</h2>
         </div>
